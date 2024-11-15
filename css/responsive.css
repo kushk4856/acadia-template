@@ -83,3 +83,234 @@ only screen and (min-width: 768px) and (max-width: 991px) {
         margin-right: 15px;
     }
 }
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+    .space_img {
+        display: none;
+    }
+
+    .hero_top_block .hero_title {
+        font-size: 80px;
+    }
+
+    .hero_top_block .left_hero,
+    .hero_top_block .right_hero,
+    .service_inner .service_heading_block,
+    .process_text_block,
+    .process_flow_card,
+    .program_heading_wrapper,
+    .subject_inner .subject_text_block,
+    .subject_inner .subject_cards_block,
+    .event_heading_block .heading_block,
+    .cta_inner .cta_text_block,
+    .cta_inner .cta_form_block {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .letter_img .letter_a {
+        right: 38%;
+    }
+
+    .letter_img .letter_b {
+        right: 32%;
+    }
+
+    .letter_img .letter_c {
+        right: 26%;
+    }
+
+    .hero_bottom_block .tp_block_1,
+    .hero_bottom_block .tp_block_2,
+    .hero_bottom_block .tp_block_2,
+    .hero_bottom_block .tp_block_3,
+    .hero_bottom_block .tp_block_4,
+    .service_card,
+    .program_card,
+    .events_cards_block .event_card,
+    .footer_inner .footer_col_1,
+    .footer_inner .footer_col_2 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .tp-hero-3-apply-btn {
+        margin-bottom: 30px;
+    }
+
+    .hero_bottom_block .tp_block_4 {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .tp-service-3-shape-4 {
+        right: 50px;
+    }
+
+    .tp-service-3-shape-5 {
+        right: 10px;
+    }
+
+    .process_inner .heading,
+    .program_title,
+    .subject_inner .heading_text h2,
+    .event_heading_block .heading_block .heading h2 {
+        font-size: 55px;
+    }
+
+    .tp-process-3-item-1 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .tp-process-3-item-2,
+    .tp-process-3-item-3 {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .tp-process-3-shape-1 {
+        display: none;
+    }
+
+    #gallery {
+        margin-bottom: 100px;
+    }
+
+    .gallery_card_sm,
+    .gallery_card_lg {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .tp-gallary-3-item-1 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .tp-gallary-3-item-4 {
+        margin-top: 0;
+    }
+
+    #subject {
+        padding-top: 100px;
+    }
+
+    .subject_inner .subject_cards_wrapper {
+        margin-left: 0px;
+    }
+
+    .tp-cta-3-section {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .tp-footer-3-col-2 {
+        margin-left: 0;
+    }
+
+    .tp-footer-3-col-3 {
+        margin-left: 0;
+    }
+
+    .tp-footer-3-col-4 {
+        margin-left: 0;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding-inline: 10px;
+    }
+
+    .hero_top_block .left_hero {
+        padding-inline: 0px;
+    }
+
+    .hero_top_block .hero_title {
+        font-size: 50px;
+    }
+
+    .hero_top_block .hero_shape_1 {
+        display: none;
+    }
+
+    .letter_img,
+    .service_shape_1,
+    .tp-service-3-shape-1,
+    .tp-service-3-shape-3 {
+        display: none;
+    }
+
+    .hero_bottom_block .tp_block_1,
+    .hero_bottom_block .tp_block_2,
+    .hero_bottom_block .tp_block_2,
+    .hero_bottom_block .tp_block_3,
+    .hero_bottom_block .tp_block_4,
+    .events_cards_block .event_card,
+    .cta_inner .form_wrapper .flex_block .col_size_1,
+    .service_card,
+    .program_card,
+    .gallery_card_sm,
+    .gallery_card_lg,
+    .footer_inner .footer_col_1,
+    .footer_inner .footer_col_2 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .tp-hero-3-thumb-2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .tp-service-3-shape-1 {
+        top: 10px;
+        left: 0;
+        right: auto;
+    }
+
+    .subject_inner .subject_cards_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tp-gallary-3-item-1 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .tp-gallary-3-item-2 {
+        margin-bottom: 30px;
+    }
+
+    .tp-gallary-3-item-3 {
+        margin-bottom: 30px;
+    }
+
+    .tp-gallary-3-item-4 {
+        margin-top: 0;
+    }
+
+    .process_inner .heading,
+    .program_title,
+    .subject_inner .heading_text h2,
+    .event_heading_block .heading_block .heading h2 {
+        font-size: 40px;
+    }
+
+    .cta_inner .form_wrapper {
+        padding: 50px 30px;
+    }
+
+
+}
