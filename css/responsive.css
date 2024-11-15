@@ -60,3 +60,26 @@ only screen and (max-width: 767px) {
         display: none;
     }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .tp-program-3-item {
+        padding: 30px 20px 30px 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px),
+only screen and (max-width: 767px) {
+    .tp-program-3-content>p br {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px) {
+    .tp-program-3-schedule-item:not(:last-of-type) {
+        padding-right: 15px;
+        margin-right: 15px;
+    }
+}
