@@ -2760,9 +2760,7 @@ Footer section end
     transform: translateY(-2px);
 }
 
-.offcanvas__close-btn svg {
-    transform: translateY(-2px);
-}
+
 
 .offcanvas-open-btn {
     height: 40px;
