@@ -162,6 +162,19 @@ Header section
 =================
 */
 
+.tp-header-transparent.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    width: 100%;
+    transition: 0.3s ease;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 2px 4px rgba(7, 37, 68, 0.1);
+    animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
+}
 
 .tp-header-transparent {
     position: absolute;
@@ -2111,6 +2124,17 @@ Footer section end
 
   */
 
+@keyframes headerSlideDown {
+    0% {
+        margin-top: -150px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+
 @-webkit-keyframes neptune {
     0% {
         transform: translate(0px, 0px);
@@ -2231,19 +2255,7 @@ Footer section end
     }
 }
 
-/* @-webkit-keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(20px);
-        transform: translateY(20px);
-    }
 
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-} */
 
 @keyframes fadeInUp {
     0% {
