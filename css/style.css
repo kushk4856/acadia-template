@@ -2756,9 +2756,6 @@ Footer section end
     opacity: 0.8;
 }
 
-.offcanvas__close-btn:hover svg {
-    transform: translateY(-2px);
-}
 
 
 
