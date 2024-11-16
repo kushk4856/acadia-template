@@ -84,6 +84,75 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     }
 }
 
+@media only screen and (max-width: 767px) {
+    .offcanvas__area {
+        width: calc(100% - 50px);
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .offcanvas__area {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px),
+only screen and (max-width: 767px) {
+    .offcanvas__top {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .offcanvas__wrapper {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .offcanvas-content {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .offcanvas-gallery {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .offcanvas-gallery.home-2 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .offcanvas-contact {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .offcanvas__close {
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .offcanvas__close-btn {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .offcanvas-btn {
+        margin-left: 8px;
+    }
+}
+
 @media (max-width: 768px) {
 
     #header-sticky {
@@ -328,7 +397,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     }
 
     .cta_inner .form_wrapper {
-        padding: 50px 30px;
+        padding: 50px 10px;
     }
 
     .book-visit-btn {

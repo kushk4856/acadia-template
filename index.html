@@ -8,13 +8,7 @@
     <link rel="stylesheet" href="./css/spacing.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+
     <script defer src="./js/script.js"></script>
   </head>
 
@@ -163,8 +157,22 @@
         </div>
       </div>
     </header>
+    <!-- 
+    ===========================
+    body overlay 
+    ===========================
+
+     -->
 
     <div class="body-overlay"></div>
+
+    <!-- 
+    ===========================
+    body overlay 
+    ===========================
+
+     -->
+
     <!--
 =====================
 mobile navbar 
@@ -231,10 +239,10 @@ mobile navbar
                       ></button
                     ></a>
                     <div class="tp-megamenu-main">
-                      <div class="megamenu-demo-small p-relative">
+                      <div class="megamenu-demo-small">
                         <div class="tp-megamenu-small-content">
-                          <div class="row tp-gx-50">
-                            <div class="col-xl-6">
+                          <div class="">
+                            <div class="">
                               <div class="tp-megamenu-list orange-color">
                                 <a href="#">Overview</a>
                                 <a href="#">Undergraduate</a>
@@ -242,7 +250,7 @@ mobile navbar
                                 <a href="#">Schools</a>
                               </div>
                             </div>
-                            <div class="col-xl-6">
+                            <div class="">
                               <div class="tp-megamenu-list orange-color">
                                 <a href="#">Online Education</a>
                                 <a href="#">Off- campus learning</a>
@@ -255,7 +263,7 @@ mobile navbar
                     </div>
                   </li>
                   <li class="has-dropdown">
-                    <a href="#"
+                    <a href="#" class="mob_nav_toggle_link"
                       >Admissions<button class="dropdown-toggle-btn"></button
                     ></a>
                     <ul class="tp-submenu">
@@ -283,11 +291,11 @@ mobile navbar
                     ></a>
                     <div class="tp-megamenu-main">
                       <div class="megamenu-demo-fullwidth p-relative">
-                        <div class="row">
-                          <div class="col-xl-8 col-lg-12">
+                        <div class="">
+                          <div class="">
                             <div class="tp-megamenu-fullwidth-list-wrapper">
-                              <div class="row tp-gx-90">
-                                <div class="col-xl-3">
+                              <div class="">
+                                <div class="">
                                   <div class="tp-megamenu-fullwidth-list">
                                     <h4 class="tp-megamenu-fullwidth-title">
                                       About
@@ -320,7 +328,7 @@ mobile navbar
                                     </ul>
                                   </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="">
                                   <div class="tp-megamenu-fullwidth-list">
                                     <h4 class="tp-megamenu-fullwidth-title">
                                       Get started
@@ -328,8 +336,8 @@ mobile navbar
                                     <div
                                       class="tp-megamenu-fullwidth-list-wrap"
                                     >
-                                      <div class="row">
-                                        <div class="col-xl-6 col-12">
+                                      <div class="">
+                                        <div class="">
                                           <ul>
                                             <li>
                                               <a class="orange" href="#"
@@ -438,7 +446,7 @@ mobile navbar
                             <div
                               class="tp-megamenu-fullwidth-item-wrap d-none d-xl-block"
                             >
-                              <div class="row">
+                              <div class="">
                                 <div class="">
                                   <div class="tp-megamenu-fullwidth-item mb-8">
                                     <div
@@ -473,13 +481,13 @@ mobile navbar
                                       class="tp-megamenu-fullwidth-content-thumb"
                                     >
                                       <img
-                                        src="assets/img/shape/menu-shape-1.png"
+                                        src="./images/menu-shape-1.png"
                                         alt=""
                                       />
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="">
                                   <div class="tp-megamenu-fullwidth-item bg">
                                     <div class="tp-megamenu-fullwidth-content">
                                       <h4
@@ -511,7 +519,7 @@ mobile navbar
                                       class="tp-megamenu-fullwidth-content-thumb"
                                     >
                                       <img
-                                        src="assets/img/shape/menu-shape-2.png"
+                                        src="./images/menu-shape-2.png"
                                         alt=""
                                       />
                                     </div>
@@ -524,22 +532,10 @@ mobile navbar
                       </div>
                     </div>
                   </li>
-                  <li class="has-dropdown">
+                  <li class="">
                     <a href="#"
                       >Blog<button class="dropdown-toggle-btn"></button
                     ></a>
-                    <ul class="tp-submenu">
-                      <li><a href="#">Blog 3 Column </a></li>
-                      <li>
-                        <a href="#">Blog Grid Sidebar</a>
-                      </li>
-                      <li><a href="#">Blog List Sidebar</a></li>
-                      <li><a href="#">Blog Standard</a></li>
-                      <li><a href="#">Blog Details</a></li>
-                      <li>
-                        <a href="#">Blog Details Full Width</a>
-                      </li>
-                    </ul>
                   </li>
                 </ul>
               </nav>
@@ -1710,10 +1706,12 @@ mobile navbar
                       </div>
                     </form>
                     <div class="tp-footer-newsletter-social">
-                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                      <a href="#"
+                        ><img src="./images/facebook-app-symbol.svg" alt=""
+                      /></a>
+                      <a href="#"><img src="./images/twitter.svg" alt="" /></a>
+                      <a href="#"><img src="./images/linkedin.svg" alt="" /></a>
+                      <a href="#"><img src="./images/youtube.svg" alt="" /></a>
                     </div>
                   </div>
                 </div>
